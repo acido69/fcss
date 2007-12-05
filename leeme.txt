@@ -1,0 +1,24 @@
+Explicación del funcionamiento de Fcc;
+Archivos:
+	screen.css -> Este css, es el que incluye la librería(carpeta 'css/lib') de Fcss. Si no necesitas algún css de la librería solo tienes que q1uitarlo del include.
+	reset.css  -> Resetea todos los valores que tienen por defecto los navegadores para algunas propiedades css. No entiendo porque cada uno le da un valor distinto; cosas de IE
+	grid.css   -> Nos asigna unas clases predefinidas para poder modelar las capas en css. Principalmente te ayuda a poner columnas con su respectivo contendor(labor tediosa y repetitiva en toda maquetación)
+					Aquí es donde pondremos las clases para nuestra grilla, según nuestro diseño. OJO solo las secciones de las páginas()
+	comun.css	->Asigna los típicos estilos que se utilizan por todos lados. muy útil
+	
+	*form.css  -> Estilo solo para formularios
+	*table.css -> Estilo solo para las Tablas
+	(*)Comidin, componente, no está incluido en screen.css; puede que ni siquiera la uses(iré añadiendo varios tipo de componentes).
+		más que nada es porque separa los componenestes(tabla, formaulario, ....) para una mejor actualizacion en futuros cambios.
+		este metodología de desarrollo tiene varios detractores, pero tras varios proyectos en los que hay que ir cambiando la tipografía, según le de al cliente, es mucho mejor tenerlo localizado e ir directamente a aquí y cambiar lo que necesitas
+Directorios dentro '/css':
+	/lib		-> Aquí ponemos todo los css que forman parte de nuestro screen.css
+	/img		-> van SOLO IMAGENES que son llamadas desde nuestro CSS
+	/img/bg		-> imagenes utilizadas como fondo de nuestras clases(o id) css
+	/img/icon	-> imagenes utilizadas como iconos de nuestas clases(o id) css
+	/img/txt	-> imagenes que representan texto(esto es totalemente desaconsejablepero necesario en algún diseño) y los ponemos con estilo Css, con la famosa(solo la conosco yo :D) clase '.replace txt'
+	
+		
+		
+		
+	

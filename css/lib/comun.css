@@ -1,0 +1,69 @@
+/*textos*/
+.txt_r {
+    text-align: right;
+}
+
+.txt_c {
+    text-align: center;
+}
+
+.txt_no {
+    text-indent: -9999em;
+    background: transparent url() center center no-repeat;
+    overflow: hidden;
+}
+
+* html .txt_no {
+    cursor: hand; /* esto no valida */
+}
+/*imagenes*/
+img.left {
+    float: left;
+    margin-right: 5px
+}
+
+img.right {
+    float: right;
+    margin-left: 5px
+}
+/*colores de texto*/
+.txtBlack {
+    color: #000
+}
+
+.txtWhite {
+    color: #fff
+}
+/* estilos dentro de la zona útil de la página */
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+/* estilos de negacion absoluta, útiles para cuando eredan estilos que no queremos */
+.noBgImg {
+    background-image: none !important
+}
+
+.noBgColor {
+    background-color: transparent !important
+}
+
+.noBgRepeat {
+    background-repeat: no-repeat !important
+}
+
+.noBorder {
+    border: 0 !important
+}
+
+.noPad {
+    padding: 0 !important
+}
+
+.noMarg {
+    margin: 0 !important
+}
+
