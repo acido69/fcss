@@ -1,0 +1,53 @@
+.principalWrap {
+  text-align: left;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;   /* Centra la capa principal */
+  width: 783px;     /* Ancho total */
+}
+.td { float: left; margin: 0 0;  padding: 0;}
+* html .td { overflow-x: hidden}
+.span-1-2   { width: 50%; }
+.span-1-3  { width: 33.3333%}
+.span-2-3  { width: 66.6666%}
+.span-1-4  { width: 25%}
+/*rpad => right padding*/
+.rpad-1   { padding-right: 5px}
+.rpad-2   { padding-right: 10px} 
+.rpad-3   { padding-right: 15px} 
+.rpad-4   { padding-right: 20px}
+/*lpad => left padding*/
+.lpad-1   { padding-left: 5px}  
+.lpad-2   { padding-left: 10px} 
+.lpad-3   { padding-left: 150px} 
+.lpad-4   { padding-left: 20px}
+.tr { display: inline-block; }   
+.tr:after, .container:after{
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+* html .tr { height: 1% }
+.tr { display: block }
+.clear{ clear:both; display:block}
+/* 
+	nuestros estilos para las zonas de nuestro diseños,
+	solo las zonas(nada de h1, a, b...; en definitiva: solo estilos para div principales)
+*/
+.bannerPrincipal{
+	
+}
+.body{
+	
+}
+.navDiv{
+	
+}
+.contenido{
+	
+}
+.infoPag{
+	
+}
